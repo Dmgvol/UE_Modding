@@ -135,12 +135,13 @@ Useful for creating speedrunning livesplit, custom randomizers and even trainers
 - LongerWarrior, JanisSG, Jan and Animayyo for their amazing support throughout the whole journey of GR modding.
 - Mythical
 - Narknon
+- Cranch
 - Buckminsterfullerene02
 - Atenfyer/Adolescent
 - Spuds
 - Truman 
 - Lisht/Kein
+- KunoDemetries
 
-    
 ---
 
