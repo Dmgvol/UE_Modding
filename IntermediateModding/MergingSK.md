@@ -91,8 +91,7 @@ Now the same goes with the default materials of the mesh.
 ![](/Media/MergingSK/ue2.png)
 
 ### Preparing the SK
-The last step is making sure it looks as expected.
-
+The last step is making sure the newly merged mesh looks as expected.<br>
 Import the textures you need for the mesh and adjust the materials.
 
 ![](/Media/MergingSK/ue2.png)
@@ -101,8 +100,11 @@ Import the textures you need for the mesh and adjust the materials.
 Only pack the modified SK and the used materials and textures for the new mesh part (not the original/replicated ones).<br>
 DON'T pack the skeleton, physicsAsset, shadowPhysics(if any), or any of the replicated materials.
 
-UE4 -> using UnrealPak.
+UE4 -> using UnrealPak _(or by assigning chunks)_.
 UE5 -> chunk assigning _(unless the game has no IOStore)_.
+
+For more information about how to package your mod, view [Cooking Content guide](/IntermediateModding/CookingContent.md).<br>
+(don't forget to name your mod with `_P` in its name)
 
 # Results 
 ![](/Media/MergingSK/result.jpg)

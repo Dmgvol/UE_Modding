@@ -32,22 +32,21 @@ The last step is to pack the modified `.uasset` and `.uexp` using UnrealPak, and
 
 <br><br>
 
-## Editing via JSON
+## Editing via JSON (alternative option)
 UAssetGUI allows to export uasset files into editable `.json` files.<br>
 File -> Save As, and pick the `.json` as the save-type.
 
-![](/media/UMODEL_trepang_smg3.png)
+![](/Media/umodel_trepang_smg3.png)
 
 JSON format gives full control over the structure of the asset.
 
-![](/media/UMODEL_trepang_smg4.png)
-<br>
+![](/Media/umodel_trepang_smg4.png)
+
+
 Once the changes are made and saved:
 Load the modified json file into UAssetGUI, and then save it as a regular `.uasset` file.
 
 <br>
-
-
 
 
 ## Example 2 - Trepang2: adding items to list (advanced)

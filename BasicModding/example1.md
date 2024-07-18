@@ -22,7 +22,7 @@ Save the changes and begin with constructing the mod folder.
 ![](/Media/Example-1/example_trepang_modifying3.png)
 
 In this case, the folder structure is:<br>
-```cs
+```
 MoreAmmoSMG_P\CPPFPS\Content\Weapon\SMG
 ```
 

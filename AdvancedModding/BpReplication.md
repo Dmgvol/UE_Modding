@@ -1,4 +1,4 @@
-# BP Replication
+# BP Replication/Dummying
 Blueprint (BP) Replication in Unreal Engine 4/5 involves creating blueprints and other assets that mimic the variables and structures of existing in-game blueprints. <br>
 This method, also known as creating "dummy blueprints", allows modders to access and manipulate game variables without modifying the original assets.
 
@@ -45,7 +45,7 @@ This allows modders to directly access and change the value of assets within the
 This is not limited to variables, so you can replicate methods, delegates, any other type of assets, BP components, and even C++ headers.
 
 ## Packaging
-We don't package anything that was replicated. <br>
+We don't package anything that was replicated! <br>
 As this will result in overwriting the game-files which we don't want. 
 
 Only package the BP mod files.

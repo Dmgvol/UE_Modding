@@ -72,7 +72,7 @@ The process is similar to UE4 but quicker a bit with a different UI.<br>
 - Name your project **EXACTLY** as the game's project name, like the "binary name".
 
 Q: Binary name? <br>
-A: That's usually how the exe is named, and that name is also visible in the Paks folder as well.
+A: That's usually how the exe is named, the largest executable named: `"Gamename"-Shipping.exe`.
 
 
 ![](/Media/creatingProject/ue5_1.png)
@@ -86,7 +86,7 @@ Go to Edit -> Project Settings -> Packaging, and ensure you have the following s
 
 ![](/Media/creatingProject/ue5_3.png)
 
-Don't forget to **untick** `Share Material Shader Code` - this will ensure your custom materials work in-game.
+Don't forget to **untick** `Share Material Shader Code` in Project Settings - this will ensure your custom materials work in-game.
 
 To enable chunk assigning in the editor, go to:<br>
 Edit -> Editor Preferences -> search for `chunk` and tick the `Allow ChunkID assignmnets`.

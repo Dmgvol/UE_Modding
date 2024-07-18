@@ -205,8 +205,11 @@ Pack it and test it!<br>
 Only pack the new SK, and the used materials and textures.<br>
 DON'T pack the skeleton, physicsAsset or the ShadowAsset.
 
-UE4 -> using UnrealPak. <br>
+UE4 -> using UnrealPak (or chunks, if you want). <br>
 UE5 -> chunk assigning _(unless the game has no IOStore)_.
+
+For more information about how to package your mod, view [Cooking Content guide](/IntermediateModding/CookingContent.md).<br>
+(don't forget to name your mod with `_P` in its name)
 
 # Results 
 ![](/Media/SKSwap/result.png)

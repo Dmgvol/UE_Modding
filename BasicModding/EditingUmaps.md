@@ -29,7 +29,7 @@ The position can be manually adjusted if needed.
 
 ![](/Media/stove/stove3.png)
 
-Additionally, Stove allows to editing of default values of objects, both blueprints and native UE components such as this desk lamp blueprint.
+Additionally, Stove allows of editing of default values of selected objects, both blueprints and native UE components such as this desk lamp blueprint (spawn instance values, not global).
 
 ![](/Media/stove/stove4.png)
 

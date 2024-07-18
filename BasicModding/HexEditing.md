@@ -8,7 +8,7 @@ Start by finding the asset you're interested in modifying and exporting it using
 
 For this example, I will be changing the gloves glow color in Ghostrunner 2, from blue to red.
 
-Using FModel, I can get the exact RGB values of the glow, which are `0.0,` 33.0, 55.0, 1.0`. 
+Using FModel, I can get the exact RGB values of the glow, which are `0.0, 33.0, 55.0, 1.0`. 
 
 ![](../Media/HexEdit/hexedit1.png)
 

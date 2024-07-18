@@ -65,3 +65,30 @@ Now that we're done with the replication part, let's start using it.
 ![](/Media/ReplicatingMI/8.png)
 
 You can assign it to your static meshes and skeletal meshes.
+
+
+<hr>
+
+# Example of MI Replication with StaticParameters
+There will be some Material Instances that will still fail to render the custom textures, even when doing the MI replication/dummying.<br>
+For such cases, you need to instantiate another MI of the same type, without going down the MI inheritance line as shown above.
+
+- It's commonly spotted when both custom plain materials and replicated base materials don't work.
+
+For example, a character in a game called "Alone in the Dark" (UE4.27) won't accept custom materials.<br>
+1. Using FModel, look at the default material instances used by the SK.
+2. Find a MI that is close to your material needs within the used material instances, like BaseColor, ORM, and/or Normal map.
+3. In this example, the MI I've picked is the MI used for the hat, called `MI_Fleece_GraceHat` which is the most basic and suitable for this need.
+4. In UE editor, create a material with the same name inside the same folder as in FModel.
+5. Create the needed parameters inside that plain material, but keep the name as the original, `MI_Fleece_GraceHat`. <br>
+**Don't pack this material in your mod**
+
+![](/Media/ReplicatingMI/example1.png)
+
+6. Create a MI from that material, and apply your textures in the MI parameters.
+
+If you're replacing a MI - name and place in the it in place of another MI.<br>
+If you're replacing the skeletal mesh - name it whatever you want, just don't forget to pack it.
+
+![](/Media/ReplicatingMI/example2.png)
+

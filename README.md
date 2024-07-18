@@ -32,7 +32,7 @@ Let's start changing values!</br>
 This is essential to <b>ANY</b> value changing.</br>
 - [Editing UAsset values - UAssetGUI](./BasicModding/UAssetGUI.md) (UE4)
 - [Editing UAsset values - Hex](./BasicModding/HexEditing.md) _(Manual _hex, _in case_ UAssetGUI fails_)_
-- [Editing UMaps - Stove](./BasicModding/EditingUmaps.md) (UE4)
+- [Editing UMaps - stove](./BasicModding/EditingUmaps.md) (UE4)
 - [Disabling/Removing textures of objects](./BasicModding/DisablingObjects.md) (UE4)
 - [Creating Pak Files - UnrealPak](./BasicModding/UnrealPak.md) (UE4)
 - [Mod example - modifying Blueprint default values](./BasicModding/example1.md) (UE4)
@@ -50,7 +50,7 @@ Replacing Assets like textures, materials, static meshes, and SkeletalMeshes (su
 ## Advanced Modding
 - [Replicating a Material for MaterialInstances](./AdvancedModding/ReplicatingMI.md)
 - [Introduction to Blueprint/Logic Mods](./AdvancedModding/BpModsIntro.md)
-- [Introduction to Blueprint Replication](./AdvancedModding/BpReplication.md)
+- [Introduction to Blueprint Dummying/Replication](./AdvancedModding/BpReplication.md)
 
 ### Blueprint Modding
 I won't be going into detail as that is where UnrealEngine4 experience comes in and this will cover the bare basics.</br>
@@ -98,7 +98,7 @@ Useful for creating speedrunning livesplit, custom randomizers and even trainers
 - [FModel](https://fmodel.app/)
 - [UModel](https://www.gildor.org/en/projects/umodel)
 - [UAssetGUI](https://github.com/atenfyr/UAssetGUI)
-- [Stove](https://github.com/bananaturtlesandwich/stove)
+- [stove](https://github.com/bananaturtlesandwich/stove)
 
 ### UE
 - [Epic Launcher](https://www.epicgames.com/store/en-US/)
@@ -118,7 +118,7 @@ Useful for creating speedrunning livesplit, custom randomizers and even trainers
 - [Hex Editor Neo](https://freehexeditorneo.com/)
 
 ### The rest
-- [All available/known UE modding tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) written by **Buckminsterfullerene02**.
+- [All available/known UE modding tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) written by **Buckminsterfullerene**.
 
 ### Discords
 [UE Modding](https://discord.gg/unreal-engine-modding-876613187204685934)
@@ -129,7 +129,7 @@ Useful for creating speedrunning livesplit, custom randomizers and even trainers
 - [FatihG_](https://www.youtube.com/c/fatihG/) for teaching me how to mod.
 - [atenfyr](https://github.com/atenfyr/)(adolescent in Discord) for [UAssetGUI](https://github.com/atenfyr/UAssetGUI) and [UAssetAPI](https://github.com/atenfyr/UAssetAPI).
 - [RussellJerome](https://github.com/RussellJerome) for creating the [ModLoader](https://github.com/RussellJerome/UnrealModLoader).
-- 
+
 
 ### Special Thanks:
 - LongerWarrior, JanisSG, Jan and Animayyo for their amazing support throughout the whole journey of GR modding.
@@ -137,7 +137,7 @@ Useful for creating speedrunning livesplit, custom randomizers and even trainers
 - Narknon
 - Buckminsterfullerene02
 - Atenfyer/Adolescent
-- Spuds/bananaturtlesandwich
+- Spuds
 - Truman 
 - Lisht/Kein
 

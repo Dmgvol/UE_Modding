@@ -56,7 +56,9 @@ This step consists of importing any missing textures, creating the materials, an
 
 ### Packaging and in-game results
 Once the materials are created, assigned, and named - Pack the mod.<br>
-(UE4 - using UnrealPak, and UE5 using id-chunks).
+
+For more information about how to package your mod, view [Cooking Content guide](/IntermediateModding/CookingContent.md).<br>
+(don't forget to name your mod with `_P` in its name)
 
 ![](/Media/changingSM/changingSM7.png)
 

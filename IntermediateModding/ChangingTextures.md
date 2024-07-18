@@ -23,12 +23,9 @@ You can double-check everything in FModel.
 
 
 Once done, simply pack it and test it in-game.<br>
-for UE4 - use [UnrealPak procedure](/BasicModding/UnrealPak.md).<br>
-for UE5 - use [id-chunk packaging](/IntermediateModding/CookingContent.md).<br>
-
+For more information about how to package your mod, view [Cooking Content guide](/IntermediateModding/CookingContent.md).<br>
 
 (don't forget to name your mod with `_P` in its name)
-
 
 ![](/Media/ChangingTexture/changingTex4.png)
 

@@ -1,24 +1,38 @@
 # Cooking Content
 Once you're done with everything you need to do inside the editor, it's time to compile the assets.
 
-For UE4 - Navigate to [Cooking UE4](#cooking-ue4) <br>
-For UE5 - Navigate to [cooking UE5](#cooking-ue5) <br>
+__For UE4__
+ - Navigate to [Cooking UE4](#cooking-ue4) for UnrealPak route.
+ - Navigate to [Chunks in UE4]().
+__For UE5__
+- Navigate to [cooking UE5](#cooking-ue5) <br>
 
 
-# Cooking UE4
+# Cooking UE4 (UnrealPak Route)
 Once you're ready, click File -> Cook Content for Windows.
 
 ![](/Media/Compiling/ue4_1.png)
 
 After a while, the cooking will be completed and you will be able to find the cooked content inside the Saved folder of your project.
 
-```cs
+```
 ProjectName\Saved\Cooked\WindowsNoEditor\ProjectName\Content\...
 ```
 
-From here, you will have to use [UnrealPak](/BasicModding/UnrealPak.md).
+From here, you will have to use UnrealPak which you can learn more about packaging your mod here: [Creating Pak - UnrealPak](/BasicModding/UnrealPak.md).
 <br>
 Based on which assets you've created, you will need to copy-paste them into the mod folder (covered in unrealPak guide). 
+
+# Cooking UE4 (Generating-Chunks Route)
+Another method of cooking UE content is by packaging specific assets into predefined chunks.<br>
+it's faster as there is no need for UnrealPak but It's limited as it packs only what's in the editor. <br>
+Meaning it's not suitable if you want to combine modified assets or precooked assets into that mod.
+
+Follow the packaging process in the UE5 section as it's the same procedure.<br>
+And once you're done with assigning to chunk:
+File -> Package Project -> Windows
+
+<hr>
 
 # Cooking UE5
 For UE5, modders have to assign their assets to specific chunk ids, and there are 2 methods to do so, which will be covered below.
@@ -71,3 +85,12 @@ Then select a folder to build the project. <br>
 _I usually make a `Build` folder inside the project folder._
 
 ![](/Media/Compiling/UE5_5.png)
+
+Once the cooking part is complete, you will find the chunk-assigned results in: <br>
+```
+\ProjectName\Build\Windows\ProjectName\Content\Paks
+```
+
+1. Copy the 3 files from the build folder into the game's Paks folder.
+2. Rename it to whatever you want but ensure it ends with `_P` in its name.<br>
+For example: `myMod_P`, for all 3 files.
