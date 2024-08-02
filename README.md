@@ -46,6 +46,7 @@ Replacing Assets like textures, materials, static meshes, and SkeletalMeshes (su
 - [Changing StaticMesh](./IntermediateModding/ChangingSM.md)
 - [Changing SkeletalMesh](./IntermediateModding/ChangingSK.md)
 - [Merging SkeletalMesh](./IntermediateModding/MergingSK.md)
+- [Replacing Fonts]() (Coming soon)
 
 ## Advanced Modding
 - [Replicating a Material for MaterialInstances](./AdvancedModding/ReplicatingMI.md)
@@ -56,13 +57,13 @@ Replacing Assets like textures, materials, static meshes, and SkeletalMeshes (su
 I won't be going into detail as that is where UnrealEngine4 experience comes in and this will cover the bare basics.</br>
 <b>Note:</b> If you're new to UE4 - just tinker with it, everything is on YouTube.
 
-- [Working with a mod loader - UML/UE4SS/DML/NML]() (Coming Soon)
-- [ModActor structure and lifecycle]() (Coming Soon)
-- [Creating a Widget]() (Coming Soon)
-- [Hotkeys for BP mods]() (Coming Soon)
-- [Config Variables - mod configurations]() (Coming Soon)
-- [Custom Mod GameSaves]() (Coming Soon)
-- [Mod Example - Custom logger (UserWidget)]() (Coming Soon)
+- [Working with a mod loader - UML/UE4SS/DML/NML](./BPModding/WorkingWithML.md)
+- [ModActor structure and lifecycle](./BPModding/ModActorLifeCycle.md)
+- [Creating a Widget](./BPModding/CreateWidget.md)
+- [Hotkeys for BP mods](./BPModding/Hotkeys.md) 
+- [Config Variables - mod configurations](./BPModding/ConfigVariables.md)
+- [Custom Mod GameSaves](./BPModding/GameSaves.md)
+- [Mod Example - Custom logger (UserWidget)](./BPModding/CustomLogger.md) 
 
 ## Expert
 At this stage, you already know how to swap/modify any UAsset and do blueprints as your second language, YET looking for more advanced stuff to try.
