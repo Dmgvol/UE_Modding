@@ -35,7 +35,8 @@ UML and UE4SS are done via DLL injections, while DML is a pak-version that doesn
 - BP mods go into `/Mods` followed by the mod name, for example: `/Mods/MyMod/`.
 - The mod blueprint has to be named `ModActor`.
 
-For UML and UE4SS, 2 additional custom methods have to be persistent within the graph editor; `PreBeginPlay` and `PostBeginPlay`
+For UML and UE4SS, 2 additional custom methods have to be persistent within the graph editor; `PreBeginPlay` and `PostBeginPlay`.<br>
+But the default `BeginPlay` also works, which is fired once when the actor is spawned.
 
 ![](/Media/ModLoaders/UmlLayout.png)
 
