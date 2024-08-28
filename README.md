@@ -38,7 +38,7 @@ This is essential to <b>ANY</b> value changing.</br>
 - [Mod example - modifying Blueprint default values](./BasicModding/example1.md) (UE4)
 
 ## Intermediate Modding
-Replacing Assets like textures, materials, static meshes, and SkeletalMeshes (such as characters). </br>
+Dummying/replacing Assets like textures, materials, static meshes, and SkeletalMeshes (such as characters). </br>
 
 - [Creating a UE4/5 project](./IntermediateModding/CreatingProject.md)
 - [Cooking/compiling in UE4 and UE5 with chunks](./IntermediateModding/CookingContent.md)
@@ -49,7 +49,7 @@ Replacing Assets like textures, materials, static meshes, and SkeletalMeshes (su
 - [Replacing Fonts]() (Coming soon)
 
 ## Advanced Modding
-- [Replicating a Material for MaterialInstances](./AdvancedModding/ReplicatingMI.md)
+- [Dummying a Material for MaterialInstances](./AdvancedModding/ReplicatingMI.md)
 - [Introduction to Blueprint/Logic Mods](./AdvancedModding/BpModsIntro.md)
 - [Introduction to Blueprint Dummying/Replication](./AdvancedModding/BpReplication.md)
 
@@ -68,8 +68,8 @@ I won't be going into detail as that is where UnrealEngine4 experience comes in 
 ## Expert
 At this stage, you already know how to swap/modify any UAsset and do blueprints as your second language, YET looking for more advanced stuff to try.
 - ["Injecting" custom Widgets into game menus using Blueprints](./ExpertModding/GameMenus.md)
-- [UHT for C++ Headers using UE4SS]() (Coming Soon)
-- [Replicating C++ headers]() (Coming Soon)
+- [Dumping C++ headers (UHT) using UE4SS](./ExpertModding/GeneratingUHT.md)
+- [Dummying/replicating C++ headers using UHT]() (Coming Soon)
 - [Mod Example - Headers in practice, (game: Sprawl)]() (Coming Soon)
 
 ## Masterclass
