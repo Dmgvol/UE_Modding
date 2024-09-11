@@ -1,7 +1,7 @@
 # Creating Classes based on UHT Headers
 Once we have UHT header, we can use them to construct relevant classes in our UE project and then use those classes, variables, methods and data objects in our blueprint mods.
 
-> ![NOTE]
+> [!NOTE]
 > This guide won't cover all cases, only a basic example of a single class, variable and method.
 
 For this example, I will be making a mod for [Trepang2](https://store.steampowered.com/app/1164940/Trepang2/) where player health regenerates if an enemy execution montage is done while player health is below 25%. <br>
@@ -19,7 +19,7 @@ Looking at the player BP, the health is being called from the parent class, `Bas
 
 Assuming we already have the UHT dumpers, look for the class header, in this case it's `BaseCharacter.h`.
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > If you don't have UHT headers, go to [Dumping UHT](/ExpertModding/GeneratingUHT.md) guide.
 
 Scrolling down, we can find the health methods, for max health getter and health setter method.
@@ -27,7 +27,7 @@ Scrolling down, we can find the health methods, for max health getter and health
 ![](/Media/Headers/3.png)
 
 ## UE Project
-> ![NOTE]
+> [!NOTE]
 > If you can't see or add C++ classes, you will have to recreate the project with C++ setting enabled.
 
 1. Launch the UE project and create a new C++ class by File -> New C++ Class.
@@ -35,7 +35,7 @@ Scrolling down, we can find the health methods, for max health getter and health
 - - You can see the base class in the header class declaration line.
 - - If it's not in the list, go down the class hierarchy until you reach a native UE class. 
 
-> ![TIP]
+> [!TIP]
 > Depending on the scale of the project, you can either recreate the whole/full hierechy structure or directly the base class.
 > Meaing that if you have ClassA -> ClassB -> Character, with "directly" it means ClassA -> Character (skipping any in-between).
 > And full meaning all of it, all three, one by one. 
@@ -56,7 +56,7 @@ Scrolling down, we can find the health methods, for max health getter and health
 
 ![](/Media/Headers/6.png)
 
-> ![TIP]
+> [!TIP]
 > Pay attention to the declaration fields/tags of each item.
 
 5. Now add the methods and variables you're interested.
@@ -71,7 +71,7 @@ A few examples:
 - for floats or integers, add `{return 0;};`
 - for voids, add `{};`
 
-> ![NOTE]
+> [!NOTE]
 > If it's a custom type then you will need to recreate it, and only then use it.
 
 ### Compile
@@ -83,7 +83,7 @@ If everything was done correctly, the build will be successful.
 
 ![](/Media/Headers/9.png)
 
-> ![NOTE]
+> [!NOTE]  
 > It's quite common for the build to fail which can be caused by countless of reasons, and I'm afraid I can't cover them in this guide.
 
 ## UnrealEngine
