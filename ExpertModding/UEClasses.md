@@ -1,15 +1,15 @@
 # Creating Classes based on UHT Headers
-Once we have UHT header, we can use them to construct relevant classes in our UE project and then use those classes, variables, methods and data objects in our blueprint mods.
+Once we have UHT headers, we can use them to construct relevant classes in our UE project and then use those classes, variables, methods and data objects in our blueprint mods.
 
 > [!NOTE]
 > This guide won't cover all cases, only a basic example of a single class, variable and method.
 
-For this example, I will be making a mod for [Trepang2](https://store.steampowered.com/app/1164940/Trepang2/) where player health regenerates if an enemy execution montage is done while player health is below 25%. <br>
-Similar to Doom, where the player regen health on enemy execution.
+For this example, I will be making a mod for [Trepang2](https://store.steampowered.com/app/1164940/Trepang2/) where player regenerates 25% health on enemy execution.<br>
+Similar to Doom, where the player regenerates health on enemy execution.
 
 
 ## Research
-First thing we need to do is identify the used class and the methods/variable that we will use for our mod.
+First thing we need to do is identify the used class and the methods and/or variables that we will use for our mod.
 
 ![](/Media/Headers/1.png)
 
@@ -17,7 +17,7 @@ Looking at the player BP, the health is being called from the parent class, `Bas
 
 ![](/Media/Headers/2.png)
 
-Assuming we already have the UHT dumpers, look for the class header, in this case it's `BaseCharacter.h`.
+Assuming we already have the UHT headers, look for the class header, in this case it's `BaseCharacter.h`.
 
 > [!IMPORTANT]
 > If you don't have UHT headers, go to [Dumping UHT](/ExpertModding/GeneratingUHT.md) guide.
@@ -26,7 +26,7 @@ Scrolling down, we can find the health methods, for max health getter and health
 
 ![](/Media/Headers/3.png)
 
-## UE Project
+## Unreal Engine - Creating the Class
 > [!NOTE]
 > If you can't see or add C++ classes, you will have to recreate the project with C++ setting enabled.
 
@@ -86,7 +86,7 @@ If everything was done correctly, the build will be successful.
 > [!NOTE]  
 > It's quite common for the build to fail which can be caused by countless of reasons, and I'm afraid I can't cover them in this guide.
 
-## UnrealEngine
+## Back to UnrealEngine
 Go back to UnrealEngine editor, into the mod Blueprint.<br>
 You should now be able to access those variables and methods within their corresponding classes.
 
