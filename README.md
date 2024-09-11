@@ -69,7 +69,7 @@ I won't be going into detail as that is where UnrealEngine4 experience comes in 
 At this stage, you already know how to swap/modify any UAsset and do blueprints as your second language, YET looking for more advanced stuff to try.
 - ["Injecting" custom Widgets into game menus using Blueprints](./ExpertModding/GameMenus.md)
 - [Dumping C++ headers (UHT) using UE4SS](./ExpertModding/GeneratingUHT.md)
-- [Dummying/replicating C++ headers using UHT]() (Coming Soon)
+- [Dummying/replicating C++ headers using UHT](./ExpertModding/UEClasses.md)
 - [Mod Example - Headers in practice, (game: Sprawl)]() (Coming Soon)
 
 ## Masterclass

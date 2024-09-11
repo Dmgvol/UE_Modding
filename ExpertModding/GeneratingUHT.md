@@ -1,5 +1,5 @@
 # UHT Headers using UE4SS
-UHT (Unreal Header Tool) processes C++ headers, generating necessary code for Unreal Engine's reflection system. When modding, dumping UHT headers provides the essential class and structure definitions needed to create C++ mods that integrate with the engine.
+UHT (Unreal Header Tool) processes C++ headers, generating necessary code for Unreal Engine's reflection system. When modding, dumping UHT headers provides the essential class and structure definitions needed to create blueprint mods.
 
 > [!NOTE]  
 > Not all logic is stored in blueprint, majority of the logic is in C++ which we can dump the header files for.
