@@ -2,10 +2,11 @@
 Once you're done with everything you need to do inside the editor, it's time to compile the assets.
 
 __For UE4__
- - Navigate to [Cooking UE4](#cooking-ue4) for UnrealPak route.
- - Navigate to [Chunks in UE4]().
+ - Navigate to [Cooking UE4](#cooking-ue4-unrealpak-route) for UnrealPak route.
+ - Navigate to [Chunks in UE4](#cooking-ue4-generating-chunks-route).
+
 __For UE5__
-- Navigate to [cooking UE5](#cooking-ue5) <br>
+- Navigate to [Cooking UE5](#cooking-ue5) <br>
 
 
 # Cooking UE4 (UnrealPak Route)
@@ -31,6 +32,9 @@ Meaning it's not suitable if you want to combine modified assets or precooked as
 Follow the packaging process in the UE5 section as it's the same procedure.<br>
 And once you're done with assigning to chunk:
 File -> Package Project -> Windows
+
+> [!IMPORTANT]  
+> UE4's process is identical with UE5 in terms of cooking using chunks.
 
 <hr>
 
